@@ -32,7 +32,6 @@ const makeRequest = async(url, request) => {
     request.headers = {
         'Access-Control-Allow-Origin': 'https://nc2-jess-prototype-8013bb78e21a.herokuapp.com'
     };
-    request.headers.append();
    const response = await fetch(url, request);
    return response.json();
 }
