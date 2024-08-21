@@ -1,8 +1,5 @@
-window.onload(undefined)
-{
-
+window.onload = function() {
     _onload();
-
 }
 
 function _onload() {
